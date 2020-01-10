@@ -57,7 +57,12 @@ public class MainActivity extends AppCompatActivity {
 
   enewUser.setOnClickListener(new View.OnClickListener() {
       @Override
+      public void onClick(View v) {}});
+      
+  button.setOnClickListener(new View.OnClickListener() {
+      @Override
       public void onClick(View v) {
+
       }
   });
   eSignin.setOnClickListener(new View.OnClickListener() {
