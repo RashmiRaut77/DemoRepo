@@ -69,15 +69,15 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
 
-//  email = eName.getText().toString();
-//  password = eEid.getText().toString();
+  email = eName.getText().toString();
+  password = eEid.getText().toString();
 
-//  enewUser.setOnClickListener(new View.OnClickListener() {
-//      @Override
-//      public void onClick(View v) {
-//          createAccount();
-//      }
-//  });
+  button.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View v) {
+
+      }
+  });
   eSignin.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
