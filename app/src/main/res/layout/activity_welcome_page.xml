@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomePage">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="welcome"
+        android:textSize="20dp"
+        android:id="@+id/welcomeText"
+        android:layout_centerHorizontal="true">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll1"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/welcomeText">
+
+        <TextView
+            android:id="@+id/nametext"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Name">
+        </TextView>
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll2"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ll1">
+
+        <TextView
+            android:id="@+id/Eidtext"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Email">
+        </TextView>
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll3"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ll2">
+
+        <TextView
+            android:id="@+id/DiasplyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Disply Name">
+        </TextView>
+
+        <EditText
+            android:id="@+id/editDisplyName"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll4"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ll3">
+
+        <TextView
+            android:id="@+id/familyName"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Family Name">
+        </TextView>
+
+        <EditText
+            android:id="@+id/editfamilyName"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="">
+        </EditText>
+    </LinearLayout>
+</RelativeLayout>
